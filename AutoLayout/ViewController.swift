@@ -9,9 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView = UITableView()
+        self.view.addSubview(tableView)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
